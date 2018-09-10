@@ -51,7 +51,9 @@ dependencies {
     exclude group: "javax.servlet", module: "javax.servlet-api"
     exclude group: "javax.servlet", module: "jsp-api"
   }
-
+test {
+	ignoreFailures = true
+}
   compile "org.springframework:spring-context:$springVersion"
   compile "org.springframework:spring-core:$springVersion"
   compile "org.springframework:spring-web:$springVersion"
