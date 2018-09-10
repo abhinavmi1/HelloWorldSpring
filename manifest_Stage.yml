@@ -1,6 +1,6 @@
 ---
 applications:
-- name: Spring-Music-App
+- name: Spring-Music-App_Stage
   memory: 1024M
   host: spring-music-app_Stage
   path: build/libs/hello-world-1.0.0-SNAPSHOT.war
