@@ -1,1 +1,6 @@
-manifest_Dev.yml
+---
+applications:
+- name: Spring-Music-App
+  memory: 1024M
+  host: spring-music-app_Stage
+  path: build/libs/hello-world-1.0.0-SNAPSHOT.war
